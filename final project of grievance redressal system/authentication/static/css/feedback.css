@@ -1,0 +1,193 @@
+.topnav {
+    background-color: rgb(123, 2, 2);
+    overflow: hidden;
+}
+/* style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(243, 239, 239);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+/* Change the color of link on hover */
+.topnav a:hover {
+        background-color: rgb(248, 242, 242);
+        color: black;
+ } 
+/* Add an active class to highlight the current page */
+.topnav a.active {
+    background-color: rgb(230, 120, 73);
+}
+/* sarkar logo */
+.logo-container img {
+  width: auto;
+  height: 91px;
+}
+.logo-container img {
+  width: auto;
+  height: 91px;
+}
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+/* midnav bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* 3234 */
+
+.dropnav {
+  float: left;
+  overflow: hidden;
+}
+
+.dropnav .dropbtm{
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropnav:hover .dropbtm {
+  background-color: red;
+}
+
+.dropdown-box {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-box a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-box a:hover {
+  background-color: #ddd;
+}
+
+.dropnav:hover .dropdown-box {
+  display: block;
+}
+
+.sign-log {
+    right: auto;
+    float: right;
+    background-color: #0f7dec;
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+img {vertical-align: middle;}
+
+body {
+    font-family: Arial, sans-serif;
+}
+.header {
+    text-align:center;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    box-sizing: border-box;
+}
+textarea {
+    height: 150px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}

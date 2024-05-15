@@ -1,0 +1,47 @@
+{% load static %}
+
+{% include "header.html" %}
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+  <nav>
+    {% comment %} <ul>
+      <li><a href="#submit-grievance">Submit Grievance</a></li>
+      <li><a href="#track-grievance">Track Grievance</a></li>
+      <li><a href="#contact-us">Contact Us</a></li>
+    </ul> {% endcomment %}
+  </nav>
+  <main>
+    <section id="submit-grievance">
+      <h2>Submit Grievance</h2>
+      <form action="" method="POST">
+        {% csrf_token %}
+        <label for="grievance-type">Grievance Type:</label>
+        <select name="grievance-type" id="grievance-type">
+          <option value="complaint">Complaint</option>
+        </select>
+        <label for="description">Description:</label>
+        <textarea name="description" id="description" rows="4" required></textarea>
+        <label for="attachment">Attachment:</label>
+        <input type="file" name="attachment" id="attachment">
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <section id="track-grievance">
+      {% comment %} <h2>Track Grievance</h2>
+      <form action="track.php" method="POST">
+        <label for="ticket-number">Ticket Number:</label>
+        <input type="text" name="ticket-number" id="ticket-number" required>
+        <button type="submit">Track</button> {% endcomment %}
+      </form>
+    </section>
+    <section id="contact-us">
+      <h2>Contact Us</h2>
+      <p>If you feel any type unwanted thing So contact us:</p>
+      <p>Email: golden30july@gmail.com</p>
+      <p>Phone: 6205859699</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Grievance Redressal System. All rights reserved.</p>
+  </footer>
+</body>
+</html>

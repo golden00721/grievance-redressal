@@ -1,0 +1,67 @@
+{% load static %}
+{% include "header.html" %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+	  {% comment %} <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> {% endcomment %}
+    <link rel="stylesheet" href="{% static 'css/process.css' %}">
+    <title>Process</title>
+</head>
+{% comment %} <body>
+    <div class='topnav'>
+        <a class='active' href='#home'><i class="fa fa-home"></i> Home</a>
+        <a href='#'><i class='fa fa-fw fa-envelope'></i>Contact US</a>
+        <a href=" http://127.0.0.1:8000/about">About</a>
+        <a href="/feedback/">Feedback</a>
+        </div>
+    </div>
+    <div class='logo-container'>
+        <div>
+           <img src="{% static "/image/bharat sarkar.png" %}" height="100">s
+        </div>
+         <div>
+          <img src="{% static "/image/images.jpeg" %}">
+         </div>
+        <div>
+          <img src="{% static "/image/logo.jpg" %}">
+        </div>
+      </div>
+    <!-- mid bar navigation -->
+      <div class="navbar">
+        <a href="#status">Status</a>
+        <a href="/process/">Process</a>
+        <div class="dropdown">
+          <button class="dropbtn">Department 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Department of Administrative Reform</a>
+            <a href="#">Public Grievance</a>
+          </div>
+        </div> 
+        <div class="dropnav">
+          <button class="dropbtm">Grievance
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-box">
+            <a href="#">Grievance against policies</a>
+            <a href="#">Grievance due to maladministration</a>
+            <a href="#">Grievance due to corruption</a>
+            <a href="#">Grievance in rural area</a>
+          </div>
+        </div> 
+        <div class='sign-log'>
+          <a href="/login">Sign In</a>
+      </div> {% endcomment %}
+    </div>
+    <br>
+
+    <div class='redressal flow'>
+            <img src="{% static "/image/flowChart.jpg" %}" style="width:100%">
+    </div>
+</body>
+</html>
